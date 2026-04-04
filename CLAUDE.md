@@ -34,3 +34,9 @@ Be clear, be concise.
 3. **Efficiency** — An efficient solution in time and memory
 4. **Lightweight** — Minimal resource footprint, no bloat
 5. **Minimal dependencies** — Every dependency is a liability
+
+
+## Project Structure
+- In sources/source/ We have a flat hierachy of the top-level "modules"
+- The module files are written in Coffeescript (sources/source/module-name/\*.coffee) and transpiled into the same directory -> output/\*.js
+- testing/test.mjs contains the top-level tester function running all tests.
